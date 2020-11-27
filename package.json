@@ -22,5 +22,8 @@
     "http": "0.0.1-security",
     "pg": "^8.5.1",
     "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
