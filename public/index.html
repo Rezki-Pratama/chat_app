@@ -1,0 +1,31 @@
+<!-- include jquery and socket io -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"></script>
+</head>
+<body>
+    <form onsubmit="return enterName()">
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="Submit">
+    </form>
+
+    <ul id="users"></ul>
+
+    <form onsubmit="return sendMessage()">
+        <input type="text" id="message" placeholder="Enter Message">
+        <input type="Submit">
+    </form>
+
+    <ul id="messages"></ul>
+
+</body>
+</html>
+
+<script src="/chat.js"></script>
